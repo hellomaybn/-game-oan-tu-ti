@@ -6,6 +6,15 @@ if "diem_nguoi" not in st.session_state:
     st.session_state.diem_may = 0
 
 st.title("✊✋✌ Trò chơi Oẳn tù tì")
+st.markdown(
+    '''
+    <audio controls>
+      <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-01.mp3" type="audio/mpeg">
+    
+    ''',
+    unsafe_allow_html=True
+)
+
 lua_chon = ["Đá", "Giấy", "Kéo"]
 chon_nguoi = st.selectbox("Bạn chọn gì?", lua_chon)
 
