@@ -1,4 +1,3 @@
-st.audio("https://www.soundhelix.com/examples/mp3/SoundHelix-Song-02.mp3")
 import streamlit as st
 import random
 
@@ -28,3 +27,4 @@ if st.button("Chơi!"):
 
 st.subheader("📊 Bảng điểm")
 st.write(f"Bạn: {st.session_state.diem_nguoi} — Máy: {st.session_state.diem_may}")
+st.audio("https://www.soundhelix.com/examples/mp3/SoundHelix-Song-02.mp3")
